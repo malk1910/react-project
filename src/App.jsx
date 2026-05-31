@@ -15,18 +15,6 @@ const router = createBrowserRouter([
       {path : "Layout" , element: <Layout />},
       {path : "About" , element: <About />},
       {path : "Nav" , element: <Nav />},
-      // {
-      //   path:'Nav',
-      //   element:<Nav />,
-      //   children:[
-      //     {path : "" , element: <Home />},
-      //     {path : "Nav" , element: <Home />},
-      //     {path : "Nav" , element: <About />},
-      //     {path : "Nav" , element: <Products />}
-
-          
-      //   ]
-      // },
       {path : "*" , element: <h1 className='text-center text-danger'>Not Found 404</h1>}
 
     ]
